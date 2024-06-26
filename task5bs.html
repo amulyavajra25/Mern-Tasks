@@ -1,0 +1,110 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-10">
+    <div class="grid grid-cols-2 gap-10">
+        <!-- Left Form -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <form class="space-y-4">
+                <!-- First Name -->
+                <div>
+                    <label class="block text-gray-700">First Name</label>
+                    <input type="text" placeholder="First Name" class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+                </div>
+                <!-- Last Name -->
+                <div>
+                    <label class="block text-gray-700">Last Name</label>
+                    <input type="text" placeholder="Last Name" class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+                </div>
+                <!-- Email -->
+                <div>
+                    <label class="block text-gray-700">E-Mail</label>
+                    <input type="email" placeholder="E-Mail Address" class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+                </div>
+                <!-- Phone -->
+                <div>
+                    <label class="block text-gray-700">Phone #</label>
+                    <input type="text" placeholder="(845)555-1212" class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+                </div>
+                <!-- Address -->
+                <div>
+                    <label class="block text-gray-700">Address</label>
+                    <input type="text" placeholder="Address" class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+                </div>
+                <!-- City -->
+                <div>
+                    <label class="block text-gray-700">City</label>
+                    <input type="text" placeholder="City" class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+                </div>
+                <!-- State -->
+                <div>
+                    <label class="block text-gray-700">State</label>
+                    <select class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+                        <option>Please select your Address</option>
+                        <option>Andhra Pradesh</option>
+                        <option>Kerala</option>
+                        <option>Tamilnadu</option>
+                    </select>
+                </div>
+                <!-- Do you have housing? -->
+                <div>
+                    <label class="block text-gray-700">Do you have housing?</label>
+                    <input type="checkbox" class="mt-1">
+                </div>
+                <!-- Project Description -->
+                <div>
+                    <label class="block text-gray-700">Project Description</label>
+                    <input type="text" placeholder="Project Description" class="w-full border border-gray-300 rounded px-3 py-2 mt-1">
+                </div>
+                <!-- Submit Button -->
+                <div>
+                    <button class="bg-yellow-500 text-white px-4 py-2 rounded-lg"><i class="fa fa-paper-plane"></i> Send</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Right Form with Errors -->
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+            <form class="space-y-4">
+                <!-- First Name with error -->
+                <div>
+                    <label class="block text-red-600">First Name</label>
+                    <input type="text" placeholder="First Name" class="w-full border border-red-600 rounded px-3 py-2 mt-1">
+                    <p class="text-red-600">Please supply your First Name</p>
+                </div>
+                <!-- Last Name with error -->
+                <div>
+                    <label class="block text-red-600">Last Name</label>
+                    <input type="text" placeholder="Last Name" class="w-full border border-red-600 rounded px-3 py-2 mt-1">
+                    <p class="text-red-600">Please supply your Last Name</p>
+                </div>
+                <!-- Email with error -->
+                <div>
+                    <label class="block text-red-600">E-Mail</label>
+                    <input type="email" placeholder="E-Mail Address" class="w-full border border-red-600 rounded px-3 py-2 mt-1">
+                    <p class="text-red-600">Please supply your E-Mail Address</p>
+                </div>
+                <!-- Phone with error -->
+                <div>
+                    <label class="block text-red-600">Phone #</label>
+                    <input type="text" placeholder="(845)555-1212" class="w-full border border-red-600 rounded px-3 py-2 mt-1">
+                    <p class="text-red-600">Please supply your Phone #</p>
+                </div>
+                <!-- Address with error -->
+                <div>
+                    <label class="block text-red-600">Address</label>
+                    <input type="text" placeholder="Address" class="w-full border border-red-600 rounded px-3 py-2 mt-1">
+                    <p class="text-red-600">Please supply your Address</p>
+                </div>
+                <!-- City with error -->
+                <div>
+                    <label class="block text-red-600">City</label>
+                    <input type="text" placeholder="City" class="w-full border border-red-600 rounded px-3 py-2 mt-1">
+                    <p class="text-red-600">Please supply your City</p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html

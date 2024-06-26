@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Form Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 shadow-md rounded-lg w-96">
+      <form>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+          <input class="border-2 border-red-500 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Name">
+          <p class="text-red-500 text-xs italic mt-1 flex items-center"><i class="fas fa-exclamation-circle mr-1"></i>Name is required</p>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+          <input class="border-2 border-red-500 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="email" placeholder="Email">
+          <p class="text-red-500 text-xs italic mt-1 flex items-center"><i class="fas fa-exclamation-circle mr-1"></i>Email is required</p>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+          <input class="border-2 border-red-500 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="password" placeholder="Password">
+          <p class="text-red-500 text-xs italic mt-1 flex items-center"><i class="fas fa-exclamation-circle mr-1"></i>Password is required</p>
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700 text-sm font-bold mb-2">Hobbies</label>
+          <select class="border-2 border-gray-300 w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+            <option>Select your Hobbies</option>
+            <option>Listening music</option>
+            <option>Martial arts</option>
+            <option>Drawing</option>
+            <option>Playing games</option>
+          </select>
+        </div>
+        <div class="flex items-center justify-between">
+          <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
